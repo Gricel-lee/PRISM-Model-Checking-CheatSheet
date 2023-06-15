@@ -1,5 +1,5 @@
 # Proof nested F  
-##  F(a) & F(b) != F(a & (F b) )
+##  Prooving that F(a) & F(b) != F(a & (F b) ) with PRISM.
 
 We want to check if 
 
