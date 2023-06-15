@@ -1,4 +1,4 @@
-# Proof F(a) & F(b) != F(a & F (b) )
+# Proof nested F   F(a) & F(b) != F(a & F (b) )
 
 We want to check if 
 
@@ -6,7 +6,7 @@ We want to check if
 F(a) & F(b) <==> F(a & F (b) )
 ```
 
-if this is true, then using the commutative property of logic and (&) it follows that,
+if this is true, then using the commutative property of &, it follows that,
 ```
 F(a) & F(b) <==> F(b) & F(a) <==> F(b & F (a) ) 
 ```
