@@ -3,9 +3,9 @@
 
 ## Not supported properties list
 
+- Error: R operator contains a path formula that is not syntactically co-safe
 ``` 
 R=?[G (a) ]
-
 ```
 
 
