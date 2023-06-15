@@ -55,15 +55,20 @@ Imagine a DTMC with a true in x2 and b true in b
 x1 -> x2 -> x3
        b     a
 ```
-If we say F(a & F(b))
-we must check for every state starting from x1, if there is a state that "a" and "F b" holds.
-In x1, "a"=false, "F b"=true, hence "a & F(b)"= false
-In x2, "a"=false, "F b"=true, hence "a & F(b)" =false
-In x3, "a"=true, "F b"=false, hence "a & F(b)"= false
+For "F(a & F(b))" we must check for every state starting from x1, if there is a state that "a" and "F b" holds.
+
+- In x1, "a"=false, "F b"=true, hence "a & F(b)"= false
+
+- In x2, "a"=false, "F b"=true, hence "a & F(b)" =false
+
+- In x3, "a"=true, "F b"=false, hence "a & F(b)"= false
+
 Hence F(a & F(b)) is false as "a & F(b)" never becomes true. 
 
+
 Now testing F(a) & F(b), this is evaluated in the first state x1,
-In x1, "F a"=true, "F b"=true, hence "F(a) & F(b)"= true
+
+- In x1, "F a"=true, "F b"=true, hence "F(a) & F(b)"= true
 
 Now we can see that F(a & F(b)) != F(a) & F(b).
 
