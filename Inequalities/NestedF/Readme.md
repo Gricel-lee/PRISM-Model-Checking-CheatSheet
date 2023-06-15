@@ -1,4 +1,5 @@
-# Proof nested F   F(a) & F(b) != F(a & F (b) )
+# Proof nested F  
+##  F(a) & F(b) != F(a & (F b) )
 
 We want to check if 
 
