@@ -9,7 +9,7 @@ R=?[G (a) ]
 ```
 
 
-## Some inequalities prooved
+## Some inequalities proved
 
 - [Nested F operator](https://github.com/Gricel-lee/PRISM-Model-Checking-CheatSheet/blob/main/Inequalities/NestedF/Readme.md)
 ```
